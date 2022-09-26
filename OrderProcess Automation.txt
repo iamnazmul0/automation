@@ -1,0 +1,67 @@
+package Walcart.OrderProcess;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Order {
+
+	@Test
+	public void myFirstTest() throws InterruptedException {
+		WebDriverManager.chromedriver().setup();
+		// create a chromeDriver object named driver.
+		WebDriver driver = new ChromeDriver();
+
+		// go to google web page
+		driver.get("https://www.walcart.com/");
+		// Maximize the browser window
+		driver.manage().window().maximize();
+
+		//search product
+		WebElement search = driver.findElement(By.xpath("//*[@id=\"search\"]"));
+		search.click();
+		search.sendKeys("Chung White Vinegar 325 Ml");
+		Thread.sleep(5000);
+		
+		driver.findElement(By.xpath("//*[@id=\"search_mini_form\"]/div[3]/button")).click();
+		System.out.println("Click SuccessFul ...!!!");
+		//Open Product
+		driver.findElement(By.xpath("//*[@id=\"maincontent\"]/div/div[2]/div[1]/div/div[2]/div[3]/ol/li[1]/div/div[2]/h2/a")).click();
+
+		//Add to cart
+		driver.findElement(By.xpath("//*[@id=\"product-addtocart-button\"]")).click();
+		
+		// wait for 3 seconds
+		Thread.sleep(3000);
+		//view cart
+		driver.findElement(By.xpath("//*[@id=\"minicart-content-wrapper\"]/div/div[2]/div[2]/div[1]/a")).click();
+		
+		//checkout
+		driver.findElement(By.xpath("//*[@id=\"maincontent\"]/div/div[2]/div/div/div[2]/div[1]/ul/li/button")).click();
+		
+		//Log in
+		driver.findElement(By.id("mobile")).sendKeys("01770947294");
+		driver.findElement(By.xpath("//*[@id=\"tab-login\"]/div[3]/div[1]/button")).click();
+		// wait for 3 seconds
+		Thread.sleep(3000);
+		driver.findElement(By.id("pass")).sendKeys("Mnop890abc");
+		driver.findElement(By.xpath("//*[@id=\"tab-login\"]/div[3]/div[2]/button")).click();
+		
+		//Next
+		// wait for 5 seconds
+				Thread.sleep(5000);
+		driver.findElement(By.xpath("//*[@id=\"shipping-method-buttons-container\"]/div/button")).click();
+
+
+
+		// wait for 5 seconds
+		Thread.sleep(5000);
+
+		// close the browser all active window
+		//driver.quit();
+	}
+}
