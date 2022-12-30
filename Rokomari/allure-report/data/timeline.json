@@ -1,0 +1,261 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "NazuDa",
+    "children" : [ {
+      "name" : "7224@NazuDa.main(1)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "f434fe94d6da2106",
+        "parentUid" : "dde805c22c06dfcc57e3a73e2b66f6d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1672328209573,
+          "stop" : 1672328260165,
+          "duration" : 50592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dde805c22c06dfcc57e3a73e2b66f6d4"
+    }, {
+      "name" : "14112@NazuDa.main(1)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "3158a1e029d36ea9",
+        "parentUid" : "e169f2bb0571e30b737d667054177cf6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1672328572653,
+          "stop" : 1672328632024,
+          "duration" : 59371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e169f2bb0571e30b737d667054177cf6"
+    }, {
+      "name" : "5884@NazuDa.main(1)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "7d74f7ae0155c52f",
+        "parentUid" : "53d52e17a4821b9874a58b0e408e5c31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1672328346499,
+          "stop" : 1672328401087,
+          "duration" : 54588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53d52e17a4821b9874a58b0e408e5c31"
+    }, {
+      "name" : "10668@NazuDa.main(1)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "6e8bc45ef1701d4c",
+        "parentUid" : "cef470d6b50b278fa178aa2053014b49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1672328009876,
+          "stop" : 1672328060223,
+          "duration" : 50347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cef470d6b50b278fa178aa2053014b49"
+    }, {
+      "name" : "13112@NazuDa.main(1)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "7606e71bbea5026d",
+        "parentUid" : "7809b8809d4742ef020ea84de5bbdd6c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1672328492780,
+          "stop" : 1672328550832,
+          "duration" : 58052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7809b8809d4742ef020ea84de5bbdd6c"
+    }, {
+      "name" : "1872@NazuDa.TestNG-test=Test-1(16)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "90e5a85539aa6974",
+        "parentUid" : "22339d55a0716f8ab98752bbc2d181e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672331022526,
+          "stop" : 1672331039868,
+          "duration" : 17342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22339d55a0716f8ab98752bbc2d181e6"
+    }, {
+      "name" : "5408@NazuDa.TestNG-test=Test-1(16)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "9548c64c6de75d49",
+        "parentUid" : "2db39539a1b3f55455afd210984efe76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672395328668,
+          "stop" : 1672395345906,
+          "duration" : 17238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2db39539a1b3f55455afd210984efe76"
+    }, {
+      "name" : "14568@NazuDa.TestNG-test=Test-1(16)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "af66e6651420ba43",
+        "parentUid" : "49c18ae746c7894d13fa050b741b9c2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672334190958,
+          "stop" : 1672334209406,
+          "duration" : 18448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49c18ae746c7894d13fa050b741b9c2f"
+    }, {
+      "name" : "12916@NazuDa.main(1)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "1d77eb19d016e722",
+        "parentUid" : "a5156ecae4cd20bbe7ac66278cc02955",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672328670450,
+          "stop" : 1672328684933,
+          "duration" : 14483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5156ecae4cd20bbe7ac66278cc02955"
+    }, {
+      "name" : "6756@NazuDa.main(1)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "a3e3fc7569d2e58d",
+        "parentUid" : "1efd9f7cdc0bb85d398d239e1edbd9bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1672327892525,
+          "stop" : 1672327945550,
+          "duration" : 53025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1efd9f7cdc0bb85d398d239e1edbd9bb"
+    }, {
+      "name" : "1864@NazuDa.main(1)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "62d12455aa68856c",
+        "parentUid" : "33bbc054ef8d8e682b79fabcb09608ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1672328077995,
+          "stop" : 1672328127903,
+          "duration" : 49908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33bbc054ef8d8e682b79fabcb09608ce"
+    }, {
+      "name" : "2552@NazuDa.main(1)",
+      "children" : [ {
+        "name" : "logintest",
+        "uid" : "c88e678e3a2ca206",
+        "parentUid" : "690457a7c3b5c26b175a0a953cc748b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672330484407,
+          "stop" : 1672330499758,
+          "duration" : 15351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "690457a7c3b5c26b175a0a953cc748b3"
+    } ],
+    "uid" : "ee94210e9d2d6b8b417364cf3920705d"
+  } ]
+}

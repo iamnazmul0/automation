@@ -1,0 +1,221 @@
+{
+  "uid" : "9548c64c6de75d49",
+  "name" : "logintest",
+  "fullName" : "test.LoginTest.logintest",
+  "historyId" : "18e817231b973774063fd1589ada9a12",
+  "time" : {
+    "start" : 1672395328668,
+    "stop" : 1672395345906,
+    "duration" : 17238
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setbrowesr",
+    "time" : {
+      "start" : 1672395324867,
+      "stop" : 1672395328544,
+      "duration" : 3677
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "46e5e0ef515d56a4",
+      "name" : "homepage",
+      "source" : "46e5e0ef515d56a4.png",
+      "type" : "image/png",
+      "size" : 804826
+    }, {
+      "uid" : "2fe1daafaa9b1e5a",
+      "name" : "writerpage",
+      "source" : "2fe1daafaa9b1e5a.png",
+      "type" : "image/png",
+      "size" : 427115
+    }, {
+      "uid" : "37a881ef237c870e",
+      "name" : "addtocart",
+      "source" : "37a881ef237c870e.png",
+      "type" : "image/png",
+      "size" : 88154
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1672395345919,
+      "stop" : 1672395346165,
+      "duration" : 246
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "logintest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "NazuDa"
+  }, {
+    "name" : "thread",
+    "value" : "5408@NazuDa.TestNG-test=Test-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "af66e6651420ba43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672334190958,
+        "stop" : 1672334209406,
+        "duration" : 18448
+      }
+    }, {
+      "uid" : "90e5a85539aa6974",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672331022526,
+        "stop" : 1672331039868,
+        "duration" : 17342
+      }
+    }, {
+      "uid" : "c88e678e3a2ca206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672330484407,
+        "stop" : 1672330499758,
+        "duration" : 15351
+      }
+    }, {
+      "uid" : "1d77eb19d016e722",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672328670450,
+        "stop" : 1672328684933,
+        "duration" : 14483
+      }
+    }, {
+      "uid" : "3158a1e029d36ea9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='js--details-btn-area']//a[@class='btn details-cart-btn js--goto-cart-btn'] (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1672328572653,
+        "stop" : 1672328632024,
+        "duration" : 59371
+      }
+    }, {
+      "uid" : "7606e71bbea5026d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Place Order'] (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1672328492780,
+        "stop" : 1672328550832,
+        "duration" : 58052
+      }
+    }, {
+      "uid" : "7d74f7ae0155c52f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Place Order'] (tried for 40 second(s) with 500 milliseconds interval)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:7668}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7668/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e36f5f3664ec6b7c749aa0b51679b773",
+      "time" : {
+        "start" : 1672328346499,
+        "stop" : 1672328401087,
+        "duration" : 54588
+      }
+    }, {
+      "uid" : "f434fe94d6da2106",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'রবীন্দ্র সংগীত')] (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1672328209573,
+        "stop" : 1672328260165,
+        "duration" : 50592
+      }
+    }, {
+      "uid" : "62d12455aa68856c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'রবীন্দ্র সংগীত')] (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1672328077995,
+        "stop" : 1672328127903,
+        "duration" : 49908
+      }
+    }, {
+      "uid" : "6e8bc45ef1701d4c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'রবীন্দ্র সংগীত')] (tried for 40 second(s) with 500 milliseconds interval)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:7014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7014/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eaf47293a8b67dfd723223793cc03d63",
+      "time" : {
+        "start" : 1672328009876,
+        "stop" : 1672328060223,
+        "duration" : 50347
+      }
+    }, {
+      "uid" : "a3e3fc7569d2e58d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'রবীন্দ্র সংগীত')] (tried for 40 second(s) with 500 milliseconds interval)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:6870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6870/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: af37295641ed510c9abadc2ecbce141c",
+      "time" : {
+        "start" : 1672327892525,
+        "stop" : 1672327945550,
+        "duration" : 53025
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9548c64c6de75d49.json",
+  "parameterValues" : [ ]
+}

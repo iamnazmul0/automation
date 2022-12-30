@@ -1,0 +1,96 @@
+{
+  "uid" : "1d77eb19d016e722",
+  "name" : "logintest",
+  "fullName" : "test.LoginTest.logintest",
+  "historyId" : "18e817231b973774063fd1589ada9a12",
+  "time" : {
+    "start" : 1672328670450,
+    "stop" : 1672328684933,
+    "duration" : 14483
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setbrowesr",
+    "time" : {
+      "start" : 1672328668614,
+      "stop" : 1672328670376,
+      "duration" : 1762
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1672328685016,
+      "stop" : 1672328685208,
+      "duration" : 192
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "logintest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "NazuDa"
+  }, {
+    "name" : "thread",
+    "value" : "12916@NazuDa.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d77eb19d016e722.json",
+  "parameterValues" : [ ]
+}

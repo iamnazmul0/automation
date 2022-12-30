@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test.LoginTest",
+    "children" : [ {
+      "name" : "logintest",
+      "uid" : "9548c64c6de75d49",
+      "parentUid" : "93ca50e1eb623a8012129ac228ea3753",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672395328668,
+        "stop" : 1672395345906,
+        "duration" : 17238
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.LoginTest"
+  } ]
+}
